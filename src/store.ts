@@ -15,7 +15,7 @@ const userbookMarks = db.bookMarks;
 const searchJump = db.searchJump;
 const openBookMarkJump = db.openBookMarkJump;
 const searchEngine = db.searchEngine;
-const isDarkTheme = db.theme == "dark" ? true : false;
+const isDarkTheme = db.theme == "dark" || db.theme == null ? true : false;
 const siderMode = defaultSiderMode;
 const showSettingPage = false;
 const bookMarks =
