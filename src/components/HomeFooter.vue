@@ -24,11 +24,15 @@ const openProject = () => {
 <style scoped>
 .footer {
   display: flex;
-  position: relative;
+  position: absolute;
+  bottom: 0vh;
+  bottom: -1vh;
   justify-content: center;
   align-items: center;
   margin: 10px 0px;
   padding: 0px 20px;
+  width: 100%;
+  z-index: 100;
 }
 .project {
   height: 30px;

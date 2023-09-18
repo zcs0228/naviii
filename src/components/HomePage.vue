@@ -2,6 +2,7 @@
 import { NMessageProvider } from "naive-ui";
 import HomeSider from "@/components/HomeSider.vue";
 import HomeContent from "@/components/HomeContent.vue";
+import HomeFooter from "@/components/HomeFooter.vue";
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import HomeContent from "@/components/HomeContent.vue";
     <HomeSider />
     <HomeContent />
   </n-message-provider>
+  <HomeFooter />
 </template>
 
 <style scoped></style>
